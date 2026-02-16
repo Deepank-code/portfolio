@@ -191,34 +191,42 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
+    title:
+      "Software Developer - Centre for Excellence in Postal Technology (CEPT)",
+    desc: "Developed and maintained production web applications using React.js, Next.js, and Node.js. Worked on APIs, dashboards, PWA development, and system troubleshooting to improve performance and user experience.",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg",
+  },
+  {
+    id: 2,
     title: "Frontend Engineer Intern - Krayonz",
     desc: "Built a UI dashboard using Angular, enhancing API integration and user experience. 3-month full-time paid internship.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
-    id: 2,
+    id: 3,
     title: "Web Developer Intern - Sparks Foundation",
     desc: "Developed Basic Banking System and Payment Gateway using HTML, CSS, JS, Node.js, Express, MongoDB. Earned LOR.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Full Stack Intern - GenieGradz",
     desc: "Working on frontend (React) and backend (Node.js, Express) development. Building scalable web applications.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
-    id: 4,
+    id: 5,
     title: "Post Office Hub (Personal Project)",
     desc: "Developing a citizen + GDS utility app using Next.js and Tailwind for PWA deployment. Focus on postal calculators and schemes.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
   {
-    id: 5,
+    id: 6,
     title: "Meri Mitti Mera Gaon (Startup)",
     desc: "Building an e-commerce platform to sell organic products and educate rural India on government schemes using the MERN stack.",
     className: "md:col-span-2",

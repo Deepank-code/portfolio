@@ -13,7 +13,7 @@ export function About() {
           <div className="z-10 w-32 h-32 md:w-40 md:h-40 relative rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-lg mb-6">
             <Image
               src="/profile.jpg"
-              alt="Dipank"
+              alt="Deepank"
               fill
               className="object-cover"
             />
@@ -24,12 +24,12 @@ export function About() {
           </h2>
 
           <p className="z-10 text-gray-700 dark:text-gray-300 text-lg leading-8 max-w-2xl">
-            I'm <strong>Dipank</strong>, a full stack developer passionate about
-            building fast, intuitive, and scalable web applications. I
-            specialize in crafting clean user interfaces, integrating APIs, and
-            enhancing user experiences through modern web technologies. My focus
-            is on delivering impactful digital solutions that are both
-            functional and beautifully designed.
+            I&apos;m <strong>Deepank</strong>, a Aspiring full stack developer
+            passionate about building fast, intuitive, and scalable web
+            applications. I specialize in crafting clean user interfaces,
+            integrating APIs, and enhancing user experiences through modern web
+            technologies. My focus is on delivering impactful digital solutions
+            that are both functional and beautifully designed.
           </p>
         </section>
       </BackgroundGradient>
