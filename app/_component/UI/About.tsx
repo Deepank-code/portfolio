@@ -6,7 +6,7 @@ import Image from "next/image";
 export function About() {
   return (
     <div className="mb-20">
-      <BackgroundGradient className="rounded-[28px] w-full p-0 bg-white dark:bg-gray-900 shadow-xl">
+      <BackgroundGradient className="rounded-[28px] w-full p-0 bg-gray-900 shadow-xl">
         <section className="relative flex flex-col items-center text-center max-w-4xl mx-auto py-16 px-6 sm:px-12">
           <div className="absolute inset-0 w-full h-full  rounded-[28px] pointer-events-none"></div>
 
@@ -19,11 +19,11 @@ export function About() {
             />
           </div>
 
-          <h2 className="z-10 text-4xl font-extrabold text-gray-900 dark:text-white mb-3 tracking-tight">
+          <h2 className="z-10 text-4xl font-extrabold text-white mb-3 tracking-tight">
             About Me
           </h2>
 
-          <p className="z-10 text-gray-700 dark:text-gray-300 text-lg leading-8 max-w-2xl">
+          <p className="z-10 text-gray-300 text-lg leading-8 max-w-2xl">
             I&apos;m <strong>Deepank</strong>, a Aspiring full stack developer
             passionate about building fast, intuitive, and scalable web
             applications. I specialize in crafting clean user interfaces,

@@ -20,17 +20,14 @@ export function ThreeDCardDemo({
 }) {
   return (
     <CardContainer className="inter-var">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[33rem] h-auto rounded-xl p-6 border  ">
-        <CardItem
-          translateZ="50"
-          className="text-xl font-bold text-neutral-600 dark:text-white"
-        >
+      <CardBody className="relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-white border-white/[0.2]  w-auto sm:w-[33rem] h-auto rounded-xl p-6 border  ">
+        <CardItem translateZ="50" className="text-xl font-bold text-black">
           {title}
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+          className="text-sm max-w-sm mt-2 text-black"
         >
           {des}
         </CardItem>
@@ -58,9 +55,30 @@ export function ThreeDCardDemo({
           <CardItem
             translateZ={100}
             as="button"
-            className="flex lg:text-xl md:text-sm text-sm text-purple "
+            className="group flex items-center gap-2 
+    px-4 py-2 rounded-lg
+    bg-emerald-600/10 
+    border border-emerald-500/20
+    text-emerald-400
+    hover:bg-emerald-600/20
+    hover:border-emerald-400/40
+    transition-all duration-300"
           >
-            <Link href={link}>Check Live</Link>
+            <Link href={link} className="flex items-center gap-2">
+              <svg
+                className="w-4 h-4 transition-transform duration-300 group-hover:scale-110"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+
+              <span className="text-sm font-medium">Check Live</span>
+            </Link>
           </CardItem>
         </div>
       </CardBody>
